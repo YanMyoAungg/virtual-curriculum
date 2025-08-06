@@ -149,7 +149,7 @@ export const techskills = {
       label: "React",
     }),
     avatareact: new GameObject({
-      x: getGridPosition(4),
+      x: getGridPosition(7),
       y: getGridPosition(6),
       hasShadow: false,
       width: getGridPosition(2),
