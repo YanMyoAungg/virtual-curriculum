@@ -126,7 +126,7 @@ export const outside = {
       },
     }),
     techskillsBillboard: new GameObject({
-      x: getGridPosition(47),
+      x: getGridPosition(45.5),
       y: getGridPosition(12.5),
       hasShadow: false,
       width: getGridPosition(5),

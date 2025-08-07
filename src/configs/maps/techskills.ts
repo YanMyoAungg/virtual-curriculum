@@ -37,17 +37,17 @@ export const techskills = {
     }),
     avatarJs: new GameObject({
       x: getGridPosition(1),
-      y: getGridPosition(12),
+      y: getGridPosition(13),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/js-avatar2.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
       interactions: [
@@ -55,21 +55,21 @@ export const techskills = {
           events: [{ type: "message", text: "Javascript" }],
         },
       ],
-      label: "Javascript",
+      label: "JS",
     }),
     avatarNode: new GameObject({
       x: getGridPosition(4),
-      y: getGridPosition(12),
+      y: getGridPosition(13),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/node-avatar2.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -82,17 +82,17 @@ export const techskills = {
     }),
     avatarGit: new GameObject({
       x: getGridPosition(8),
-      y: getGridPosition(12),
+      y: getGridPosition(13),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/git-avatar2.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
       interactions: [
@@ -104,17 +104,17 @@ export const techskills = {
     }),
     avatarDocker: new GameObject({
       x: getGridPosition(11),
-      y: getGridPosition(12),
+      y: getGridPosition(13),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/docker-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -127,17 +127,17 @@ export const techskills = {
     }),
     avatarReact: new GameObject({
       x: getGridPosition(1),
-      y: getGridPosition(6),
+      y: getGridPosition(7),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/react-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -148,42 +148,20 @@ export const techskills = {
       ],
       label: "React",
     }),
-    avatareact: new GameObject({
-      x: getGridPosition(7),
-      y: getGridPosition(6),
-      hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
-      sprite: {
-        object: {
-          src: "../images/objects/react-avatar.png",
-          width: getGridPosition(2),
-          height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
-        },
-      },
 
-      interactions: [
-        {
-          events: [{ type: "message", text: "React" }],
-        },
-      ],
-      label: "React",
-    }),
     avatarDevtools: new GameObject({
       x: getGridPosition(4),
-      y: getGridPosition(6),
+      y: getGridPosition(7),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/chromedev-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -196,17 +174,17 @@ export const techskills = {
     }),
     avatarCss: new GameObject({
       x: getGridPosition(8),
-      y: getGridPosition(6),
+      y: getGridPosition(7),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/css-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -219,17 +197,17 @@ export const techskills = {
     }),
     avatarTypescript: new GameObject({
       x: getGridPosition(11),
-      y: getGridPosition(6),
+      y: getGridPosition(7),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/typescript-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -238,21 +216,21 @@ export const techskills = {
           events: [{ type: "message", text: "Typescript" }],
         },
       ],
-      label: "Typescript",
+      label: "TS",
     }),
     avatarWebpack: new GameObject({
       x: getGridPosition(2),
-      y: getGridPosition(0),
+      y: getGridPosition(1),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/webpack-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -265,17 +243,17 @@ export const techskills = {
     }),
     avatarJest: new GameObject({
       x: getGridPosition(6),
-      y: getGridPosition(0),
+      y: getGridPosition(1),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/jest-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -288,17 +266,17 @@ export const techskills = {
     }),
     avatarPerformance: new GameObject({
       x: getGridPosition(10),
-      y: getGridPosition(0),
+      y: getGridPosition(1),
       hasShadow: false,
-      width: getGridPosition(2),
-      height: getGridPosition(2),
+      width: getGridPosition(1),
+      height: getGridPosition(1),
       sprite: {
         object: {
           src: "../images/objects/performance-avatar.png",
           width: getGridPosition(2),
           height: getGridPosition(3),
-          imageWidth: 32,
-          imageHeight: 48,
+          imageWidth: 64,
+          imageHeight: 96,
         },
       },
 
@@ -314,7 +292,7 @@ export const techskills = {
     xMin: getGridPosition(6),
     yMin: getGridPosition(4),
     xMax: getGridPosition(6),
-    yMax: getGridPosition(12),
+    yMax: getGridPosition(13),
   },
   walls: {},
   actionSpaces: {
